@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing Plans</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #f0f0f0;
+      font-family: 'Poppins', sans-serif;
+      padding: 20px;
+    }
+
+
+    .header {
+      text-align: center;
+      padding: 30px 0;
+      background: linear-gradient(135deg, #00b4d8, #90e0ef);
+      color: white;
+      border-radius: 10px;
+      margin-bottom: 40px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+
+
+    .item {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      justify-content: center;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+
+    .item1,
+    .item2,
+    .item3 {
+      background: white;
+      border: 2px solid #00b4d8;
+      border-radius: 15px;
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .item1:hover,
+    .item2:hover,
+    .item3:hover {
+      transform: translateY(-10px) scale(1.03);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    h2 {
+      margin: 10px 0;
+    }
+
+    ul {
+      list-style: none;
+      margin: 15px 0;
+      padding: 0;
+    }
+
+    ul li {
+      margin: 8px 0;
+      color: #333;
+    }
+
+    button {
+      background-color: #00b4d8;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 500;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #0077b6;
+    }
+
+
+    .item1 {
+      border-top: 5px solid #9acd32;
+    }
+
+    .item2 {
+      border-top: 5px solid #00ff99;
+    }
+
+    .item3 {
+      border-top: 5px solid #ffb300;
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <div class="header">
+    <h1>✨ Welcome to Our Website ✨</h1>
+  </div>
+
+
+  <div class="item">
+    <div class="item1">
+      <h2><i>Basic AI</i></h2>
+      <h2><i>$9.0/mo</i></h2>
+      <ul>
+        <li><i>1 Project</i></li>
+        <li><i>Help 24×7</i></li>
+        <li><i>Revisions</i></li>
+      </ul>
+      <button><i>Choose Plan</i></button>
+    </div>
+
+    <div class="item2">
+      <h2><i>Pro AI</i></h2>
+      <h2><i>$18.3/mo</i></h2>
+      <ul>
+        <li><i>5 Projects</i></li>
+        <li><i>Revisions</i></li>
+        <li><i>Help 24×7</i></li>
+      </ul>
+      <button><i>Choose Plan</i></button>
+    </div>
+
+    <div class="item3">
+      <h2><i>Premium AI</i></h2>
+      <h2><i>$50.0/mo</i></h2>
+      <ul>
+        <li><i>10 Projects</i></li>
+        <li><i>Revisions</i></li>
+        <li><i>Help 24×7</i></li>
+      </ul>
+      <button><i>Choose Plan</i></button>
+    </div>
+  </div>
+
+</body>
+
+</html>
